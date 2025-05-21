@@ -1,0 +1,15 @@
+C:\Users\Lab15-PC01\Documents\GitHub\Desarrollo_De_Sistemas\TP_Supermercado\Consola\bin\Debug\net9.0\Consola.exe
+C:\Users\Lab15-PC01\Documents\GitHub\Desarrollo_De_Sistemas\TP_Supermercado\Consola\bin\Debug\net9.0\Consola.deps.json
+C:\Users\Lab15-PC01\Documents\GitHub\Desarrollo_De_Sistemas\TP_Supermercado\Consola\bin\Debug\net9.0\Consola.runtimeconfig.json
+C:\Users\Lab15-PC01\Documents\GitHub\Desarrollo_De_Sistemas\TP_Supermercado\Consola\bin\Debug\net9.0\Consola.dll
+C:\Users\Lab15-PC01\Documents\GitHub\Desarrollo_De_Sistemas\TP_Supermercado\Consola\bin\Debug\net9.0\Consola.pdb
+C:\Users\Lab15-PC01\Documents\GitHub\Desarrollo_De_Sistemas\TP_Supermercado\Consola\obj\Debug\net9.0\Consola.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lab15-PC01\Documents\GitHub\Desarrollo_De_Sistemas\TP_Supermercado\Consola\obj\Debug\net9.0\Consola.AssemblyInfoInputs.cache
+C:\Users\Lab15-PC01\Documents\GitHub\Desarrollo_De_Sistemas\TP_Supermercado\Consola\obj\Debug\net9.0\Consola.AssemblyInfo.cs
+C:\Users\Lab15-PC01\Documents\GitHub\Desarrollo_De_Sistemas\TP_Supermercado\Consola\obj\Debug\net9.0\Consola.csproj.CoreCompileInputs.cache
+C:\Users\Lab15-PC01\Documents\GitHub\Desarrollo_De_Sistemas\TP_Supermercado\Consola\obj\Debug\net9.0\Consola.sourcelink.json
+C:\Users\Lab15-PC01\Documents\GitHub\Desarrollo_De_Sistemas\TP_Supermercado\Consola\obj\Debug\net9.0\Consola.dll
+C:\Users\Lab15-PC01\Documents\GitHub\Desarrollo_De_Sistemas\TP_Supermercado\Consola\obj\Debug\net9.0\refint\Consola.dll
+C:\Users\Lab15-PC01\Documents\GitHub\Desarrollo_De_Sistemas\TP_Supermercado\Consola\obj\Debug\net9.0\Consola.pdb
+C:\Users\Lab15-PC01\Documents\GitHub\Desarrollo_De_Sistemas\TP_Supermercado\Consola\obj\Debug\net9.0\Consola.genruntimeconfig.cache
+C:\Users\Lab15-PC01\Documents\GitHub\Desarrollo_De_Sistemas\TP_Supermercado\Consola\obj\Debug\net9.0\ref\Consola.dll
