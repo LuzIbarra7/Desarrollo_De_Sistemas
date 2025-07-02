@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Inicio</title>
+    <!-- Tu CSS personalizado -->
+    <link rel="stylesheet" href="~/css/style.css" />
+    <!-- Fuentes de Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet" />
+</head>
+<body>
+    <header>
+        <!-- Puedes añadir una barra de navegación o encabezado aquí si lo deseas -->
+    </header>
+
+    <main role="main" class="pb-3">
+        @RenderBody()
+    </main>
+
+    <footer>
+        <!-- Pie de página si lo necesitas -->
+    </footer>
+
+    <!-- Scripts JavaScript -->
+    <!-- ¡IMPORTANTE! Cargar jQuery primero, antes de los scripts de validación -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validation/1.19.3/jquery.validate.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validation-unobtrusive/3.2.12/jquery.validate.unobtrusive.min.js"></script>
+    
+    <!-- Renderiza scripts específicos de la página (como tu script.js para Login) -->
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

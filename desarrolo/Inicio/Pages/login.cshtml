@@ -1,0 +1,39 @@
+@page
+@model Inicio.Pages.LoginModel
+@{
+    ViewData["Title"] = "Iniciar Sesión"; // Título para la página
+    Layout = "_Layout"; // Asegura que use tu _Layout.cshtml
+}
+
+<div class="login-wrapper">
+  <h2>Iniciar Sesión</h2>
+  <!-- Muestra mensajes del lado del servidor (C#) -->
+  @if (!string.IsNullOrEmpty(Model.Message))
+  {
+      <div class="alert-message">@Model.Message</div>
+  }
+
+  <form method="post" id="loginForm">
+    <div class="form-group">
+      <label for="Email">Correo Electrónico</label>
+      <input type="email" id="Email" asp-for="Email" placeholder="por@ejemplo.com" required autocomplete="email" />
+      <!-- Muestra errores de validación para Email -->
+      <span asp-validation-for="Email" class="text-danger"></span>
+    </div>
+    <div class="form-group password-wrapper">
+      <label for="Password">Contraseña</label>
+      <div class="password-input-container">
+        <input type="password" id="Password" asp-for="Password" placeholder="••••••••" required autocomplete="current-password" />
+        <button type="button" class="toggle-password" aria-label="Alternar visibilidad de contraseña">👁️</button>
+      </div>
+      <!-- Muestra errores de validación para Password -->
+      <span asp-validation-for="Password" class="text-danger"></span>
+    </div>
+    <button type="submit">Iniciar</button>
+  </form>
+</div>
+
+@section Scripts {
+    <!-- Tu script personalizado para la página de Login -->
+    <script src="~/js/script.js"></script>
+}
